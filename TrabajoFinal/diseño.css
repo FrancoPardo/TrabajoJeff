@@ -1,0 +1,49 @@
+.formulario{
+    height: 370px;
+    width: 50%;
+    margin: 2% auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px rgba(142,142, 142, 0.9)
+}
+
+.formulario-group,.respuestas{
+    display: flex;
+    flex-direction: column;
+    margin: 8px auto;
+}
+
+.group-botons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.btn{
+    display: block;
+    width: 105px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.btn-graficar{
+
+    background: steelblue;
+}
+
+.btn-calcular{
+    background: tomato;
+}
+
+h1{
+    text-align: center;
+    color: rgba(0,0,0,0.6); 
+}
+span{
+    
+    color: rgba(142,142, 142, 0.7); 
+}

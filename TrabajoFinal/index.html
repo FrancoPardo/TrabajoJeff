@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabajo Final IA</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+   
+    <form action=""  id="form" class="formulario" name="f1" method="post">
+        <div class="header"> 
+               <h1>TRABAJO FINAL <span> - Redes neuronales</span></h1>
+        </div>
+        <div class="formulario-group">
+            <label>Valor 1</label>
+            <input type="text" id="codX" name="txtv1" id="txtv1">
+        </div>
+        <div class="formulario-group">
+                <label>Valor 2</label>    
+            <input type="text" id="codY" name="txtv2" id="txtv2">
+        </div>
+       
+       <div class="group-botons">
+           
+            <input type="button" class="btn btn-calcular" id="calcular" value="Calcular">
+            <input type="button" class="btn btn-graficar" id="graficar" value="Graficar"> 
+       </div>
+        
+        <!-- Resultado: <input type="text" name="txt1" id="txt1"><br> -->
+       <div class="respuestas">
+            <label>Respuestas</label>
+            <input type="text" name="txt2" id="txt2"> 
+            <input type="text" name="txt3" id="txt3">
+       </div>
+    </form>
+    <canvas id="canva" width="200" height="100"></canvas>
+    <script src="node_modules/brain.js/dist/brain-browser.min.js"></script>
+    <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="scrip.js"></script>
+
+</body>
+</html>
